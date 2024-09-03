@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0 auto;
+  padding-top: 34px;
+  font-family: "Roboto", sans-serif;
+}
+html {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+
+  color: #ebe7ef;
+  background: black;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  min-height: 80rem;
+}
+
+#flex-contact-img {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  margin-left: 75rem;
+}
+
+#flex-contact-img img {
+  margin-left: 3rem;
+  width: 50px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #00ff00;
+  font-family: "Press Start 2P", cursive;
+  margin-left: 24rem;
+  margin-bottom: 6rem;
+}
+
+button {
+  padding: 0.8rem 2rem;
+  background-color: #00ff00;
+  border-radius: 5px;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  cursor: pointer;
+  border: none;
+  margin-left: 29rem;
+  font-size: 15px;
+  margin-top: 8rem;
+  font-family: "Press Start 2P", cursive;
+}
+
+section {
+
+  margin-top: 15rem;
+  display: flex;
+
+}
+
+section label{
+  margin-left: 10rem;
+  font-family: "Press Start 2P", cursive;
+}
+
+section input{
+  padding: 0.7rem 7rem 0.7rem 1rem;
+  margin-bottom: 3rem;
+  border: none;
+  border-radius: 20px;
+}
